@@ -14,15 +14,24 @@ section{
 .dices{
     display: flex;
     gap:10vw;
+    margin-top: -8vh;
+    margin-bottom: 6vh;
+}
+.dice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 h1{
     font-size: 5em;
     font-weight: 700;
+    color: #ff4500;
 }
 p{
     font-size: 2em;
     font-weight: 400;
     font-style: italic;
+    color: rgb(17, 0, 75)
 }
 .refresh{
     font-family: 'Cabin Sketch', cursive;
