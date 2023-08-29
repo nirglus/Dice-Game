@@ -15,3 +15,7 @@ if(randomNum1 > randomNum2){
 }else{
     heading.innerHTML = "It's a draw!"
 }
+
+function refreshPage(){
+    window.location.reload();
+}
