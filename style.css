@@ -8,4 +8,9 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5vh;
+}
+.dices{
+    display: flex;
+    gap:10vw;
 }
